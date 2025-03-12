@@ -1,18 +1,18 @@
 # In-class Demonstrations
 
-The code developed in class will be uploaded here. Each semester's delivery for each lecturer is in a separate branch. To find your class, look for a branch named in the format `yyyy/sn/lecturer`. For example, for Semester 2 of 2023 with lecturer Raf, the branch would be `2023/s2/raf`.
+The code developed in class will be uploaded here. Each semester's delivery for each lecturer is in a separate branch. To find your class, look for a branch named in the format `yyyy/sn/lecturer`. For example, for Semester 2 of 2023 with lecturer Raf, the branch would be `2025/s1/raf`.
 
 ## Recommended Workflow
 
-This workflow is specifically tailored for working with this repository, which will be constantly updated by the lecturer during the class.
+No workflow! Anarchy!!
 
 ### Initial Setup
 
 1. Clone this repository locally:
 
     ```bash
-    git clone https://github.com/NM-TAFE/civ-ipriot-in-class-demos.git
-    cd civ-ipriot-in-class-demos
+    git clone https://github.com/chris-arnold-nmtafe/civ-ipriot
+    cd civ-ipriot
     ```
 
 2. List all available branches to find your class:
@@ -36,12 +36,6 @@ This workflow is specifically tailored for working with this repository, which w
     git switch -c local_experiments
     ```
 
-2. Periodically, fetch changes from the upstream repository:
-
-    ```bash
-    git fetch origin yyyy/sn/lecturer
-    ```
-
 3. Merge the changes from the upstream's class-specific branch into your local branch:
 
     ```bash
@@ -57,5 +51,3 @@ This workflow is specifically tailored for working with this repository, which w
     ```
 
     If there are any conflicts, you'll need to resolve them and continue the rebase using `git rebase --continue`.
-
-4. Remember not to push your changes to the upstream repository.
