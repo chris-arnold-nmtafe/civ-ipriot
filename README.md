@@ -1,6 +1,6 @@
 # In-class Demonstrations
 
-The code developed in class will be uploaded here. Each semester's delivery for each lecturer is in a separate branch. To find your class, look for a branch named in the format `yyyy/sn/lecturer`. For example, for Semester 2 of 2023 with lecturer Raf, the branch would be `2023/s2/raf`.
+The code developed in class will be uploaded here. Each semester's delivery for each lecturer is in a separate branch. To find your class, look for a branch named in the format `yyyy/sn/lecturer`. For example, for Semester 2 of 2025 with lecturer Raf, the branch would be `2025/s2/raf`.
 
 ## Recommended Workflow
 
